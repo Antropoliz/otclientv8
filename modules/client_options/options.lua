@@ -639,8 +639,6 @@ function updateValues(key, value)
     end
   elseif key == "hotkeyDelay" then
     controlsPanel:getChildById("hotkeyDelayLabel"):setText(tr("Hotkey delay: %s ms", value))
-  elseif key == "actionbarWidgetDelay" then
-    controlsPanel:getChildById("actionbarWidgetDelayLabel"):setText(tr("Actionbar widget delay: %s ms", value))
   elseif key == "walkFirstStepDelay" then
     controlsPanel:getChildById("walkFirstStepDelayLabel"):setText(tr("Walk delay after first step: %s ms", value))
   elseif key == "walkTurnDelay" then
